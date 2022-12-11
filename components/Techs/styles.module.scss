@@ -1,0 +1,23 @@
+.techList {
+  min-width: 434px;
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+
+  .tech {
+
+    div {
+      height: 105px;
+      width: 105px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    
+    .techIcon {
+      
+    }
+  }
+}
