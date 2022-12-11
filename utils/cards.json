@@ -1,0 +1,25 @@
+{
+  "cards": [
+    {
+      "name": "Alelo",
+      "icon": {
+        "path": "/images/corps/Alelo.svg"
+      },
+      "text": "Lorem ipsum dolor sit amet. Est quas blanditiis sed doloremque dolorem et inventore tenetur et exercitationem voluptatibus nam quasi inventoreLorem ipsum dolor sit amet. Est quas blanditiis sed"
+    },
+    {
+      "name": "itaú",
+      "icon": {
+        "path": "/images/corps/Itau.svg"
+      },
+      "text": "Lorem ipsum dolor sit amet. Est quas blanditiis sed doloremque dolorem et inventore tenetur et exercitationem voluptatibus nam quasi inventoreLorem ipsum dolor sit amet. Est quas blanditiis sed"
+    },
+    {
+      "name": "Oi",
+      "icon": {
+        "path": "/images/corps/Oi.svg"
+      },
+      "text": "Lorem ipsum dolor sit amet. Est quas blanditiis sed doloremque dolorem et inventore tenetur et exercitationem voluptatibus nam quasi inventoreLorem ipsum dolor sit amet. Est quas blanditiis sed"
+    }
+  ]
+}
