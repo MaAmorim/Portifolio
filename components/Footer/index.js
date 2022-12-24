@@ -1,7 +1,14 @@
 import React from 'react';
+import styles from './styles.module.scss';
 
-const SocialMedia = ()=> {
-
+const Footer = ()=> {
+  return(
+    <footer className={styles.footer}>
+      <p className={styles.footerText}>
+        © 2022 Matheus Amorim. All Rights Reserved.
+      </p>
+    </footer>
+  );
 }
 
-export default SocialMedia;
+export default Footer;

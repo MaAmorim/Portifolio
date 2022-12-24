@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Bio from '../components/Bio';
 import Cards from '../components/Cards';
+import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Profile from '../components/Profile';
 import SocialMedia from '../components/SocialMedia';
@@ -23,6 +24,7 @@ export default function Home() {
         sectionText='Lorem ipsum, dolor sit amet, Est quas blanditiis sed, doloremque dolorem et inventore.'
       />
       <SocialMedia />
+      <Footer />
     </>
   );
 }
