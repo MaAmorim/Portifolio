@@ -10,9 +10,9 @@ const Bio = () => {
       </h2>
       <ul className={styles.eventList}>
         {
-          bioData.importantDates.map((date)=>(
+          bioData.importantDates.map((date, index)=>(
             
-            <li className={styles.event}>
+            <li className={styles.event} key={index}>
               <span className={styles.eventYear}>{date.year}</span>
               <div className={styles.yearDivider}></div>
               <div className={styles.eventDivider}></div>

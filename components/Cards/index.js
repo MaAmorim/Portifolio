@@ -7,8 +7,8 @@ const Cards = ()=> {
   return (
     <div className={styles.container}>
       {
-        cardsData.cards.map((card)=> (
-          <div className={styles.card}>
+        cardsData.cards.map((card, index)=> (
+          <div className={styles.card} key={index}>
             <div className={`${styles.face} ${styles.face1}`}>
               <div className={styles.content}>
                 <Image className={styles.logo} src={card.icon.path} width={0} height={0} alt={`${card.name} logo`}/>
