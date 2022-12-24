@@ -1,0 +1,79 @@
+@import '/styles/variables.scss';
+
+.bio {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin: 60px auto;
+  box-sizing: border-box;
+
+  .title {
+    display: flex;
+    align-self: center;
+    font-size: 38px;
+    color: $dracula-pink;
+  }
+
+  .eventList {
+    min-width: 900px;
+    min-height: 522px;
+    margin-top: 30px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .event {
+      display: flex;
+      position: relative;
+      align-items: center;
+      // flex-direction: column;
+      justify-content: space-between;
+
+      &:last-of-type {
+        .yearDivider {
+          display: none;
+        }
+      }
+
+      .eventYear {
+        width: fit-content;
+        background-color: $box-fill;
+        border-radius: 12px;
+        padding: 15px;
+        font-size: 38px;
+        color: $dracula-green;
+      }
+
+      .eventDivider {
+        width: 28%;
+        height: fit-content;
+        border: dashed 1px #ffffff;
+        position: relative;        
+      }
+
+      .eventDescription {
+        max-width: 530px;
+        background-color: $box-fill;
+        padding: 15px;
+        border-radius: 12px;
+        font-size: 24px;
+        color:  $dracula-cyan;
+      }
+
+      .yearDivider {
+        width: 4%;
+        height: fit-content;
+        border: dashed 1px #ffffff;
+        transform: rotate(90deg);
+        position: absolute;
+        top: 93px;
+        left: 38px;
+
+        
+      }
+      
+      
+    }    
+  }
+}
