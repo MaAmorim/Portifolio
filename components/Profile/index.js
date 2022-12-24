@@ -13,7 +13,7 @@ const Profile = (props) => {
       </h2>
       <Techs techData={props.techData}/>
       <span className={styles.devInfo}>
-        Hello, I'm a Web Developer based in Brazil!
+        Hello, I&aposm a Web Developer based in Brazil!
       </span>
     </div>
   );

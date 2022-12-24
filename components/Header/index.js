@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.devNameContainer}>
-        <Image className={styles.computerImage} src='/images/computer.svg' width={72} height={73}/>
+        <Image className={styles.computerImage} src='/images/computer.svg' width={72} height={73} alt="computer"/>
         <span className={styles.devName}>Matheus Amorim</span>
       </div>
     </header>
