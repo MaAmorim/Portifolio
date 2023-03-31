@@ -26,6 +26,7 @@ export const Navbar = styled.nav`
   a {
       color: #f8f8f2;
       text-decoration: none;
+      transition: all .5s;
       &:hover {
         color: #8be9fd;
         cursor: pointer;
