@@ -58,8 +58,8 @@ export const ContactInput = styled.input`
   background-color: #44475a;
   color: #f8f8f8;
   font-size: 16px;
-  max-width: calc(50% - 6px);
-  width: 100%;
+  width: calc(50% - 6px);
+  max-width: 600px;
   padding: 0 12px;
   height: 42px;
   border-radius: 8px;
