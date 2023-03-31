@@ -31,5 +31,7 @@ module.exports = {
     'jsx-a11y/anchor-is-valid': 'off',
     'object-shorthand': 'off',
     'no-unused-vars': 'off',
+    'no-alert': 'off',
+    'no-console': 'off',
   },
 };
