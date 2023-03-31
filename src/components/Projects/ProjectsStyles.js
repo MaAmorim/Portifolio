@@ -33,7 +33,6 @@ export const ProjectsTitle = styled.h2`
 export const ProjectsGallery = styled.div`
   width: fit-content;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-content: center;
   gap: 30px;

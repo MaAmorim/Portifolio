@@ -57,8 +57,7 @@ const Services = (props) => {
             <FaUniversalAccess />
             <h3>Acessibilidade Web</h3>
             <p>
-              A acessibilidade web traz benefícios para pessoas com deficiências 
-              e limitações físicas, além de: 
+              A acessibilidade web traz benefícios como: 
             </p>
             <ul>
               <li>Melhorar a experiência do usuário para todos</li>

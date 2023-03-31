@@ -33,15 +33,22 @@ export const ServicesTitle = styled.h2`
 
 export const ServicesContainer = styled.div`
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: 34px;
+
+  @media screen and (min-width: 768px) {
+   flex-direction: row;
+  }
+
 `;
 
 export const ServicesCard = styled.div`
   display: flex;
   max-width: 420px;
-  width: 30%;
+  width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -58,6 +65,8 @@ export const ServicesCard = styled.div`
 
   @media screen and (min-width: 768px) {
     padding: 28px;
+    max-width: 30%;
+    min-height: 570px;
   }
 
   svg {
