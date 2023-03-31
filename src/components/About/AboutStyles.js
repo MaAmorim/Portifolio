@@ -44,7 +44,7 @@ export const AboutSubtitle = styled.span`
 
 export const AboutDescription = styled.p`
   font-size: 18px;
-  line-height: 1.2;
+  line-height: 1.5;
   margin-top: 18px;
   font-weight: 200;
 `;

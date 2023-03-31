@@ -33,5 +33,6 @@ module.exports = {
     'no-unused-vars': 'off',
     'no-alert': 'off',
     'no-console': 'off',
+    'no-trailing-spaces': 'off',
   },
 };

@@ -37,22 +37,29 @@ const Hero = (props) => {
           </span>
           <RevealWrapper reset={true} distance="100px" duration={2000} delay={250} origin="right">
             <HeroDescription>
-              Lorem ipsum tempus quam quisque cursus blandit magna, curae vulputate
-              nisl dictumst eu ac hac, purus tristique sapien massa netus duis.
+              Sou um desenvolvedor de software com experiência em Adobe Experience Manager, 
+              Node.js, JavaScript, React e Next.js. Desenvolvo soluções web personalizadas 
+              com AEM, aplicativos de servidor escaláveis com Node.js e aplicativos front-end 
+              reativos com JavaScript e React. Além disso, crio aplicativos front-end de alto 
+              desempenho e interativos com Next.js.
             </HeroDescription>
           </RevealWrapper>
           <HeroSocialMedia>
-            <a href="https://www.facebook.com/matheus.amorim.5648/">
+            <a href="https://www.facebook.com/matheus.amorim.5648/" aria-label="Ir para: Facebook">
               <FaFacebook />
             </a>
-            <a href="https://www.instagram.com/_math.amorim/">
+            <a href="https://www.instagram.com/_math.amorim/" aria-label="Ir para: Instagram">
               <FaInstagram />
             </a>
-            <a href="https://www.linkedin.com/in/matheus-amorim-developer/">
+            <a href="https://www.linkedin.com/in/matheus-amorim-developer/" aria-label="Ir para: Linkedin">
               <FaLinkedin />
             </a>
           </HeroSocialMedia>
-          <HeroDownloadButton href="/documents/matheus_amorim_cv.pdf" download="Matheus Amorim CV">
+          <HeroDownloadButton
+            href="/documents/matheus_amorim_cv.pdf"
+            download="Matheus Amorim CV"
+            aria-label="Baixe o Currículo"
+          >
             Download CV
           </HeroDownloadButton>
         </HeroPresentation>

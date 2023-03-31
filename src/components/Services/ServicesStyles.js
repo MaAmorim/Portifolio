@@ -79,13 +79,24 @@ export const ServicesCard = styled.div`
   }
 
   p {
-    margin: 0 0 20px;
+    margin: 0;
+    padding: 0 10px;
     font-size: 16px;
-    font-weight: 200;
-    text-align: center;
+    font-weight: 600;
+    text-align: left;
+    line-height: 1.5;
 
     @media screen and (min-width: 768px) {
       font-size: 20px;
+    }
+  }
+  ul {
+    max-width:364px;
+    width: 100%;
+    li {
+      font-size: 16px;
+      line-height: 1.5;
+      font-weight: 400;
     }
   }
 `;

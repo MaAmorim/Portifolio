@@ -37,18 +37,18 @@ const Header = (props) => {
         <NavTitle>Portfolio.</NavTitle>
       </NavTitleContainer>
       <NavButtonContainer>
-        <NavButton type="button" onClick={() => handleOpen()}>
+        <NavButton type="button" aria-label="Menu de navegação" onClick={() => handleOpen()}>
           { isOpen === false
             ? <MdMenu />
             : <MdClose />}
         </NavButton>
       </NavButtonContainer>
       <NavLinks>
-        <a href={null} onClick={() => handleAnchor(home.current)}>Início</a>
-        <a href={null} onClick={() => handleAnchor(about.current)}>Sobre</a>
-        <a href={null} onClick={() => handleAnchor(services.current)}>Serviços</a>
-        <a href={null} onClick={() => handleAnchor(projects.current)}>Portfolio</a>
-        <a href={null} onClick={() => handleAnchor(contact.current)}>Contato</a>
+        <a href="/" onClick={(e) => { e.preventDefault(); handleAnchor(home.current); }}>Início</a>
+        <a href="/" onClick={(e) => { e.preventDefault(); handleAnchor(about.current); }}>Sobre</a>
+        <a href="/" onClick={(e) => { e.preventDefault(); handleAnchor(services.current); }}>Serviços</a>
+        <a href="/" onClick={(e) => { e.preventDefault(); handleAnchor(projects.current); }}>Portfolio</a>
+        <a href="/" onClick={(e) => { e.preventDefault(); handleAnchor(contact.current); }}>Contato</a>
       </NavLinks>
     </Navbar>
   );

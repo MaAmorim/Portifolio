@@ -23,10 +23,15 @@ const Services = (props) => {
             <FaCode />
             <h3>Desenvolvimento Web</h3>
             <p>
-              Lorem ipsum tempus quam quisque cursus blandit magna,
-              curae vulputate nisl dictumst eu ac hac, purus tristique
-              sapien massa netus duis.
+              Um bom desenvolvimento web traz benefícios como :
             </p>
+            <ul>
+              <li>Maior visibilidade</li>
+              <li>Credibilidade</li>
+              <li>Eficiência</li>
+              <li>Redução de custos</li>
+              <li>Melhor desempenho nos mecanismos de busca e acesso a novos mercados</li>
+            </ul>
             <ServicesCardButton type="button" onClick={() => handleAnchor(props.contact.current)}>
               Saiba Mais
             </ServicesCardButton>
@@ -35,10 +40,15 @@ const Services = (props) => {
             <FaHammer />
             <h3>Transformação digital</h3>
             <p>
-              Lorem ipsum tempus quam quisque cursus blandit magna,
-              curae vulputate nisl dictumst eu ac hac, purus tristique
-              sapien massa netus duis.
+              A transformação digital traz benefícios como:
             </p>
+            <ul>
+              <li>melhor experiência do cliente</li>
+              <li>novas oportunidades de negócios, </li>
+              <li>redução de custos</li>
+              <li>redução de custos</li>
+              <li>maior competitividade</li>
+            </ul>
             <ServicesCardButton type="button" onClick={() => handleAnchor(props.contact.current)}>
               Saiba Mais
             </ServicesCardButton>
@@ -47,10 +57,16 @@ const Services = (props) => {
             <FaUniversalAccess />
             <h3>Acessibilidade Web</h3>
             <p>
-              Lorem ipsum tempus quam quisque cursus blandit magna,
-              curae vulputate nisl dictumst eu ac hac, purus tristique
-              sapien massa netus duis.
+              A acessibilidade web traz benefícios para pessoas com deficiências 
+              e limitações físicas, além de: 
             </p>
+            <ul>
+              <li>Melhorar a experiência do usuário para todos</li>
+              <li>
+                Aumentar a visibilidade e credibilidade do site nos mecanismos 
+                de busca, expandindo o público alvo e atraindo mais tráfego orgânico.
+              </li>
+            </ul>
             <ServicesCardButton type="button" onClick={() => handleAnchor(props.contact.current)}>
               Read More
             </ServicesCardButton>

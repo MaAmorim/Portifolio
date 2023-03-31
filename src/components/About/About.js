@@ -23,12 +23,19 @@ const About = (props) => {
           Desenvolvedor Frontend!
         </AboutSubtitle>
         <AboutDescription>
-          Lorem ipsum tempus quam quisque cursus blandit magna,
-          curae vulputate nisl dictumst eu ac hac, purus tristique sapien
-          massa netus duis. dui fringilla porttitor congue leo et mattis ultrices
-          nam vel pellentesque, rhoncus vivamus eget dolor quam est senectus volutpat risus.
-          Potenti eget fusce conubia sagittis libero phasellus dapibus, porttitor sodales fames
-          augue aliquam mattis, tristique volutpat magna vestibulum nam erat.
+          Sempre tive um grande interesse por tecnologia e me dediquei desde cedo a estudar 
+          programação. Durante meu curso de graduação em Sistemas de Informação, comecei a 
+          trabalhar como desenvolvedor em uma grande consultoria de Tecnologia, onde tive a 
+          oportunidade de aprender muito e aprimorar as habilidades que já tinha. 
+          <br />
+          <br />
+          Com o passar do tempo, percebi que gostava de trabalhar em projetos grandes 
+          e desafiadores. Decidi então focar em empresas de grande porte, principalmente bancos 
+          e empresas de telecomunicações, que são áreas com grande demanda por soluções 
+          tecnológicas de ponta. Trabalhei ao lado de excelentes profissionais ao longo de minha 
+          carreira. Absorvi muito conhecimento técnico e pessoal desses profissionais o que me fez 
+          apto a desenvolver sempre um bom trabalho e entender as necessidades dos meus pares e 
+          clientes.
         </AboutDescription>
         <AboutButton onClick={() => handleAnchor(props.contact.current)}>
           Saiba Mais
