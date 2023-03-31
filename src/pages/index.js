@@ -1,30 +1,32 @@
-import Head from 'next/head'
-import Bio from '../components/Bio';
-import Cards from '../components/Cards';
-import Footer from '../components/Footer';
-import Header from '../components/Header';
-import Profile from '../components/Profile';
-import SocialMedia from '../components/SocialMedia';
-import TitleText from '../components/TitleText';
-import techsData from '/utils/techs.json';
+import React, { createContext, useRef } from 'react';
+import Contact from '../components/Contact/Contact';
+import Footer from '../components/Footer/Footer';
+import Header from '../components/Header/Header';
+import Hero from '../components/Hero/Hero';
+import Projects from '../components/Projects/Projects';
+import Services from '../components/Services/Services';
+import About from '../components/About/About';
 
-export default function Home() {
+export const DeviceContext = createContext();
+
+const Home = () => {
+  const home = useRef(null);
+  const about = useRef(null);
+  const services = useRef(null);
+  const projects = useRef(null);
+  const contact = useRef(null);
+
   return (
     <>
-      <Header />
-      <Profile techData={techsData.techs}/>
-      <TitleText 
-        sectionTitle='Work'
-        sectionText='Lorem ipsum dolor sit amet. Est quas blanditiis sed doloremque dolorem et inventore tenetur et exercitationem voluptatibus nam quasi inventore ut debitis delectus. Sit enim neque qui magnam minus a voluptate nobis est repellat ipsum At assumenda nostrum sit rerum quas eum facere porro.'
-      />
-      <Cards />
-      <Bio />
-      <TitleText 
-        sectionTitle='About Me'
-        sectionText='Lorem ipsum, dolor sit amet, Est quas blanditiis sed, doloremque dolorem et inventore.'
-      />
-      <SocialMedia />
-      <Footer />
+      <Header references={{ home, about, services, projects, contact }} />
+      <Hero reference={home} />
+      <About reference={about} contact={contact} />
+      <Services reference={services} contact={contact} />
+      <Projects reference={projects} />
+      <Contact reference={contact} />
+      <Footer home={home} />
     </>
   );
-}
+};
+
+export default Home;
