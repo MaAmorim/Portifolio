@@ -36,6 +36,8 @@ const Contact = (props) => {
       setPhone('');
       setSubject('');
       setMessage('');
+    }, (err) => {
+      console.log('Error ', err);
     });
   };
 

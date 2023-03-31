@@ -57,7 +57,7 @@ const Hero = (props) => {
           </HeroDownloadButton>
         </HeroPresentation>
       </RevealWrapper>
-      <RevealWrapper reset={true} distance="100px" duration={5000} delay={250} origin="bottom">
+      <RevealWrapper reset={true} distance="100px" duration={2000} delay={250} origin="bottom">
         <HeroProfilePicture>
           <Image src="/images/profilePicture.svg" height={400} width={400} alt="Profile Picture" />
         </HeroProfilePicture>
