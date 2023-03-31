@@ -41,6 +41,7 @@ export const ServicesContainer = styled.div`
 export const ServicesCard = styled.div`
   display: flex;
   max-width: 420px;
+  width: 30%;
   flex-direction: column;
   justify-content: center;
   align-items: center;

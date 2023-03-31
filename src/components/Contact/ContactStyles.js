@@ -58,7 +58,7 @@ export const ContactInput = styled.input`
   background-color: #44475a;
   color: #f8f8f8;
   font-size: 16px;
-  max-width: 600px;
+  max-width: calc(50% - 6px);
   width: 100%;
   padding: 0 12px;
   height: 42px;
@@ -68,12 +68,16 @@ export const ContactInput = styled.input`
 
   @media screen and (min-width: 1024px) {
     font-size: 20;
+
   }
 `;
 
 export const ContactButton = styled.button`
   width: 200px;
   height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 12px;
   background-color: #8be9fd;
   border-radius: 25px;
