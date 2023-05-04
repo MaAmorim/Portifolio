@@ -48,3 +48,20 @@ export const ProjectsGallery = styled.div`
     }
   }
 `;
+export const ProjectsDownloadButton = styled.a`
+  width: 180px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8be9fd;
+  border-radius: 25px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: #282a36;
+  text-decoration: none;
+  &:hover {
+    cursor: pointer;
+  }
+`;

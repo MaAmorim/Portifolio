@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import { RevealWrapper } from 'next-reveal';
-import { ProjectsGallery, ProjectsSection, ProjectsTitle } from './ProjectsStyles';
+import { ProjectsGallery, ProjectsSection, ProjectsTitle, ProjectsDownloadButton } from './ProjectsStyles';
 
 const Projects = (props) => {
   return (
@@ -15,6 +15,11 @@ const Projects = (props) => {
         <ProjectsGallery>
           <Image src="/images/projects/setup1.jpg" width={330} height={210} alt="Setup 1" />
           <Image src="/images/projects/setup3.jpg" width={330} height={210} alt="Setup 3" />
+          <ProjectsDownloadButton
+            href="/documents/themes_work.zip"
+            download="Tema"
+            aria-label="Baixe o Tema"
+          />
         </ProjectsGallery>
       </RevealWrapper>
     </ProjectsSection>
